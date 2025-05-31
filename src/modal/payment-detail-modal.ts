@@ -34,4 +34,8 @@ export class PaymentModal {
         await this.submitButton.click();
     }
 
+    async isVisible():Promise<void>{
+
+    }
+
 }

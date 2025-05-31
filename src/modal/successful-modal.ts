@@ -21,4 +21,5 @@ export class SuccessfulModal {
         await this.waitForVisible();
         return await this.successText.textContent() ?? '';
     }
+
 }
